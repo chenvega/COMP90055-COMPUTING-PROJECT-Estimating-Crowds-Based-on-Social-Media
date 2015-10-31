@@ -3,11 +3,8 @@
 COMP90055 COMPUTING PROJECT
 
 Author :  Weijia Chen
-
 Student Number : 616213
-
 Supervisor : Prof. Richard Sinnott
-
 Project Name : Estimating Crowds Based on Social Media
 
 Overview 
@@ -27,22 +24,16 @@ Presentation Video Demo: https://www.youtube.com/watch?v=BI3Rykl-wpU&feature=you
 For installing and launching the system, the following tools/applications are needed:
 
 1. Apache2
-
 2. Python
-
 3. CouchDB
-
 4. Tweepy
 
 
 --> Directory Structure
 
 System_Install
-
 TwitterHarvester
-
 Data_Process
-
 Web_APP
 
 
@@ -99,4 +90,5 @@ This folder is used to count tweets number, implement improved algorithm and lin
 --> Final_Data: All statistics data are formed into CSV files for different football leagues.
 
 —————————Web_APP—————————
+
 This folder contains different files for Web Interface implementation.

@@ -1,8 +1,13 @@
 # COMP90055-COMPUTING-PROJECT-Estimating-Crowds-Based-on-Social-Media
+
 COMP90055 COMPUTING PROJECT
+
 Author :  Weijia Chen
+
 Student Number : 616213
+
 Supervisor : Prof. Richard Sinnott
+
 Project Name : Estimating Crowds Based on Social Media
 
 Overview 

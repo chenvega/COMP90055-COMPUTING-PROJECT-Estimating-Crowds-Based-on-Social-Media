@@ -1,0 +1,16 @@
+AlbertoBraglia	20507
+ArtemioFranchi	47284
+AtletiAzzurridItalia	26562
+CarloCastellani	19847
+ComunaleMatusa	9680
+Friuli	30900
+GiuseppeMeazza	80018
+JuventusStadium	41254
+LuigiFerraris	36603
+MapeiStadium	20084
+MarcAntonioBentegodi	39211
+OlimpicoTorinal	25370
+OlimpicoRoma	72698
+RenatoDallAra	38375
+RenzoBarbera	37000
+SanPaolo	60240

@@ -1,0 +1,20 @@
+Athletic	San Mamés	17	53332
+AtleticoMadrid	Vicente Calderón	20	54907
+Celta	Estadio de Balaídos	12	29000
+Deportivo	Riazor	2	34600
+SDEibar	Municipal de Ipurua	2	5250
+Espanyol	power8 stadium	7	40500
+Barcelona	Camp Nou	20	99354
+Getafe	Coliseum Alfonso Pérez	8	17000
+Granada	Nuevo Los Cármenes	6	22369
+LasPalmas	Estadio de Gran Canaria	2	31250
+Levante	Ciudad de Valencia	11	25354
+Malaga	La Rosaleda	10	30044
+RealBetis	Benito Villamarín	1	52500
+RealMadrid	Santiago Bernabéu	20	80000
+RealSociedad	Anoeta	14	32076
+RayoVallecano	Campo de Fútbol de Vallecas	9	14505
+Sevilla	Ramón Sánchez Pizjuán	16	45500
+Sporting	El Molinón	2	30000
+Valencia	Estadio de Mestalla	13	55000
+Villarreal	El Madrigal	15	24500

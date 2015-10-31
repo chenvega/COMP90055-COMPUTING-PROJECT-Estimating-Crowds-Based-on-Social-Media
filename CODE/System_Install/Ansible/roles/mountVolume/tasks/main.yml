@@ -1,0 +1,9 @@
+# Author :  Weijia Chen
+# Student Number : 616213
+# Supervisor : Prof. Richard Sinnott
+# Subject: COMP90055 COMPUTING PROJECT
+# Project Name : Estimating Crowds Based on Social Media
+- name: format disk as ext4
+  filesystem: fstype=ext4 dev=/dev/vdc
+- name: mount volume
+  mount: name=/mnt/data/ src=/dev/vdc fstype=ext4 state=mounted

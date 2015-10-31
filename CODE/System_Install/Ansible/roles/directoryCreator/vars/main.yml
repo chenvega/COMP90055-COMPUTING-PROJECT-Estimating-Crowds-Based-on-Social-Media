@@ -1,0 +1,11 @@
+# Author :  Weijia Chen
+# Student Number : 616213
+# Supervisor : Prof. Richard Sinnott
+# Subject: COMP90055 COMPUTING PROJECT
+# Project Name : Estimating Crowds Based on Social Media
+- name: create a directory data
+file: path=/mnt/data state=directory
+- name: create a directory Database
+file: path=/mnt/data/Database state=directory
+- name: copy couchdb directory
+shell: cp -R -p /var/lib/couchdb/ /mnt/data/Database/couchdb

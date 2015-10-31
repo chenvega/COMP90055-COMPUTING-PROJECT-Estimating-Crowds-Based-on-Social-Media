@@ -1,0 +1,20 @@
+AstonVilla	Villa Park	6	42788
+ManUnited	Old Trafford	20	75731
+Watford	Vicarage Road	3	22100
+WestBrom	The Hawthorns	5	26445
+Sunderland	Stadium of Light	7	49000
+NorwichCity	Carrow Road	4	27244
+WestHam	Boleyn Ground	8	35016
+LeicesterCity	King Power Stadium	2	32500
+ManCity	Etihad Stadium	22	60000
+Chelsea	Stamford Bridge	18	41837
+Liverpool	Anfield	19	45276
+Bournemouth	Vitality Stadium	1	10700
+Southampton	St. Mary's Stadium	13	32689
+Everton	Goodison Park	16	40157
+SwanseaCity	Liberty Stadium	9	20750
+Newcastle	St James' Park	11	52409
+Tottenham	White Hart Lane	15	36240
+StokeCity	Britannia Stadium	12	27740
+CrystalPalace	Selhurst Park	10	26255
+Arsenal	Emirates Stadium	19	60362

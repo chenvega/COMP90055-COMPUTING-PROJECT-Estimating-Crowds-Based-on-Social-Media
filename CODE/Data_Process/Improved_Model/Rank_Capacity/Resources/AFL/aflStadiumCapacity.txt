@@ -1,0 +1,13 @@
+SimondsStadium	34074
+MelbourneCricketGround	100024
+SydneyCricketGround	48000
+EtihadStadium	56347
+MetriconStadium	27500
+AdelaideOval	53583
+DomainStadium	43405
+AllphonesArena	17471
+Gabba	42000
+SpotlessStadium	24000
+BlundstoneArena	20000
+AuroraStadium	20000
+ANZStadium	83500

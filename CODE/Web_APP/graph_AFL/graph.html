@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="http://code.highcharts.com/highcharts.js"></script>
+		<script src="http://code.highcharts.com/maps/modules/map.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+		<script src="http://code.highcharts.com/stock/highstock.js"></script>
+		<script src="http://code.highcharts.com/stock/modules/exporting.js"></script>
+		<script src="http://code.highcharts.com/maps/highmaps.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>
+	</head>
+
+	<body>
+		<div id="container" style="width:100%; height:400px;"></div>
+	</body>
+	
+	<script>
+	var graphData;
+	var popular;
+	var teams;
+	function getData()
+	{
+		var xmlhttp;
+		xmlhttp=new XMLHttpRequest();
+		xmlhttp.onreadystatechange=function()
+		{
+		  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		    {
+		      graphData=JSON.parse(xmlhttp.responseText);
+			  teams=graphData[1];
+		      popular=graphData[0];
+
+		      for (i = 0; i < popular.length; i++) { 
+				    popular[i] = parseInt(popular[i]);
+				}
+		    }
+		}
+
+		xmlhttp.open("GET","graph.php",false);
+		xmlhttp.send();
+
+		    $('#container').highcharts({
+	            rangeSelector : {
+	                selected : 1
+	            },
+				tooltip: {
+				    crosshairs: [true,true]
+				},
+		        chart: {
+		            type: 'column'
+		        },
+		        title: {
+		            text: 'Popularity of AFL'
+		        },
+		        xAxis: {
+		            categories: teams
+		        },
+		        yAxis: {
+		            title: {
+		                text: 'Popular'
+		            }
+		        },
+		        series: [{
+		            name: 'AFL League Teams',
+		            data: popular
+		        }]
+		    });
+
+
+	}
+	addEventListener("load",getData());
+
+	</script>
+</html>

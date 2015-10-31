@@ -1,0 +1,37 @@
+# Author :  Weijia Chen
+# Student Number : 616213
+# Supervisor : Prof. Richard Sinnott
+# Subject: COMP90055 COMPUTING PROJECT
+# Project Name : Estimating Crowds Based on Social Media
+- name: change port number
+  lineinfile: dest=/etc/couchdb/local.ini
+              regexp='^;port'
+              insertafter="[httpd]"
+              line="port = 5984"
+- name: change bind_address
+  lineinfile: dest=/etc/couchdb/local.ini
+              regexp='^;bind_address'
+              insertafter="port"
+              line="bind_address = 0.0.0.0"
+- name: add directory for directory
+  lineinfile: dest=/etc/couchdb/local.ini
+              regexp="^database_dir"
+              insertafter="^uuid"
+              line="database_dir = /mnt/data/Database/couchdb\nview_index_dir = /mnt/data/Database/couchdb"
+- name: write access directory in alias
+  lineinfile: dest=/etc/apparmor.d/tunables/alias
+              regexp=''
+              insertafter=EOF
+              line="alias /var/lib/couchdb/ -> /mnt/data/Database/couchdb/,"
+- name: change apache2 config
+  lineinfile: dest=/etc/apache2/apache2.conf
+              regexp=''
+              insertafter=EOF
+              line="ServerName localhost\nDirectoryIndex index.html index.htm index.php"
+- name: Configure Supervisor
+  shell: echo_supervisord_conf > /home/ubuntu/supervisord.conf
+- name: change config file of supervisord
+  lineinfile: dest=/home/ubuntu/supervisord.conf
+              regexp=''
+              insertafter=EOF
+              line="[program:new_york_harvester_historical]\ncommand=/home/ubuntu/vertx/bin/vertx runzip /home/ubuntu/NYHarvester-0.2-mod.zip -conf /home/ubuntu/scott_h.json\nstdout_logfile=/home/ubuntu/new_york_harvester_historical.out.log\nstderr_logfile=/home/ubuntu/new_york_harvester_historical.err.log\n\n[program:new_york_harvester_latest]\ncommand=/home/ubuntu/vertx/bin/vertx runzip /home/ubuntu/NYHarvester-0.2-mod.zip -conf /home/ubuntu/scott_l.json\nstdout_logfile=/home/ubuntu/new_york_harvester_latest.out.log\nstderr_logfile=/home/ubuntu/new_york_harvester_latest.err.log"

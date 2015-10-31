@@ -1,0 +1,138 @@
+body,html {
+	height:100%;
+}
+
+div img.TeamLogo {
+	position: relative;
+	width:130px;
+	height:auto;
+	margin-left: 20%;
+	margin-bottom: 15px;
+	opacity: 0.4;
+}
+
+div#TeamIntro1 img.TeamLogo {
+	position: relative;
+	height:auto;
+	width:70px;
+	margin-left: 30%;
+	margin-top: 7%;
+	opacity: 1;
+}
+
+div#TeamIntro1 img.TeamName {
+	position: relative;
+	width:auto;
+	height:60px;
+	margin-top: 6%;
+	opacity: 1;
+}
+
+div#TeamIntro2 img.TeamLogo {
+	position: relative;
+	height:auto;
+	width:70px;
+	margin-left: 30%;
+	margin-top: 7%;
+	opacity: 1;
+}
+
+div#TeamIntro2 img.TeamName {
+	position: relative;
+	width:auto;
+	height:60px;
+	margin-top: 6%;
+	opacity: 1;
+}
+
+
+div#TeamIntro3 img.TeamLogo {
+	position: relative;
+	height:auto;
+	width:70px;
+	margin-left: 30%;
+	margin-top: 7%;
+	opacity: 1;
+}
+
+div#TeamIntro3 img.TeamName {
+	position: relative;
+	width:auto;
+	height:60px;
+	margin-top: 6%;
+	opacity: 1;
+}
+
+
+div#TeamIntro4 img.TeamLogo {
+	position: relative;
+	height:auto;
+	width:70px;
+	margin-left: 30%;
+	margin-top: 7%;
+	opacity: 1;
+}
+
+div#TeamIntro4 img.TeamName {
+	position: relative;
+	width:auto;
+	height:60px;
+	margin-top: 6%;
+	opacity: 1;
+}
+
+div img.TeamName {
+	position: relative;
+	margin-left: 2%;
+	opacity: 0;
+	-webkit-transition: opacity 1.5s;
+}
+
+div#TeamIntro1, div#TeamIntro2, div#TeamIntro3, div#TeamIntro4, div#logo4 {
+	width:100%;
+	height:100%;
+}
+
+.multiColumns {
+	
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px; 
+    column-gap: 50px;
+}
+
+.teamDisplay{
+	width:50px; 
+	height:50px;
+	margin-top: 20px;
+	margin: 15px;
+	display: inline;
+	opacity: 0.4; 
+}
+
+.teamDisplay:hover{
+	width:50px; 
+	height:50px;
+	margin-top: 20px;
+	margin: 15px;
+	display: inline;
+	opacity: 1; 
+	box-shadow: 6px 6px 5px #888888;
+    border: 0 solid #a1a1a1;
+    border-radius: 10px;
+}
+
+#fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+}
+
+.buttons{
+	float: right;
+}

@@ -1,0 +1,35 @@
+# Author :  Weijia Chen
+# Student Number : 616213
+# Supervisor : Prof. Richard Sinnott
+# Subject: COMP90055 COMPUTING PROJECT
+# Project Name : Estimating Crowds Based on Social Media
+- name: Install python
+  apt: pkg=python state=latest
+- name: install pip
+  apt: pkg=python-pip state=latest
+- name: install nltk via pip
+  pip: name=nltk
+- name: install python-package via apt
+  apt: pkg={{ item }} state=latest
+  with_items:
+   - python-numpy
+   - python-scipy
+   - libblas-dev
+   - liblapack-dev
+   - gfortran
+   - python-matplotlib
+   - libfreetype6-dev
+   - libpng12-dev
+   - tk
+   - python-qt4
+   - python-gtk2
+   - python-wxgtk2.8
+   - librsvg2-common
+   - texlive-latex-extra
+   - texlive-extra-utils
+   - pandas
+   - python-libxml2
+   - python-sklearn
+   - tweepy
+- name: upgrade Numpy via pip
+  pip: name=numpy state=latest

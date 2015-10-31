@@ -1,0 +1,16 @@
+SydneyRoosters	16
+ManlyWarringahSeaEagles	15
+SouthSydneyRabbitohs	16
+PenrithPanthers	13
+NorthQueenslandCowboys	12
+MelbourneStorm	11
+CanterburyBankstownBulldogs	10
+BrisbaneBroncos	9
+NewZealandWarriors	8
+ParramattaEels	7
+StGeorgeIllawarraDragons	6
+NewcastleKnights	5
+WestsTigers	4
+GoldCoastTitans	3
+CanberraRaiders	2
+CronullaSutherlandSharks	1

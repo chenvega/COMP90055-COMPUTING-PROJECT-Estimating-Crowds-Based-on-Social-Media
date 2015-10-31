@@ -1,0 +1,23 @@
+# Author :  Weijia Chen
+# Student Number : 616213
+# Supervisor : Prof. Richard Sinnott
+# Subject: COMP90055 COMPUTING PROJECT
+# Project Name : Estimating Crowds Based on Social Media
+- name: Install apache2
+  apt: pkg=apache2 state=latest
+- name: Install php5
+  apt: pkg=php5 state=latest
+- name: Install wordpress
+  apt: pkg=wordpress state=latest
+- name: Install couchDB
+  apt: pkg=couchdb state=latest
+- name: Install python-couchDB
+  apt: pkg=python-couchdb state=latest
+- name: Install java
+  apt: pkg=openjdk-7-jre-headless state=latest
+- name: Install make
+  apt: pkg=make
+- name: Install Supervisor
+  command: easy_install supervisor
+- name: Install curl
+  apt: pkg=curl state=latest

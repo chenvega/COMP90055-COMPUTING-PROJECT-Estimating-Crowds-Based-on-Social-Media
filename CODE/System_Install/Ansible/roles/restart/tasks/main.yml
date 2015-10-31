@@ -1,0 +1,9 @@
+# Author :  Weijia Chen
+# Student Number : 616213
+# Supervisor : Prof. Richard Sinnott
+# Subject: COMP90055 COMPUTING PROJECT
+# Project Name : Estimating Crowds Based on Social Media
+- name: restart a service couchdb
+  service: name=couchdb state=restarted
+- name: restart a service apache2
+  service: name=apache2 state=restarted

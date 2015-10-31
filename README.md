@@ -32,6 +32,7 @@ Web_APP
 --> Directory Details
 
 —————————System_Install—————————
+
 --> Boto
 This folder contains a python implementation file, which is used to create Cloud Instances and corresponding volumes.
 --> Ansible 
@@ -46,6 +47,7 @@ This folder is used to deploy applications, edit configuration files and mount v
     --> update: Update the Ubuntu system.
 
 —————————TwitterHarvesters—————————
+
 This folder is used to use Twitter API to harvester Tweets data from different crowd events. Different sub-folders indicate different social events as follows:
     --> AFL: Australian Football League
     --> Airport: Melbourne International Airport
@@ -59,6 +61,7 @@ This folder is used to use Twitter API to harvester Tweets data from different c
 
 
 —————————Data_Process—————————
+
 This folder is used to count tweets number, implement improved algorithm and linear regression model.
 
 --> Improved_Model

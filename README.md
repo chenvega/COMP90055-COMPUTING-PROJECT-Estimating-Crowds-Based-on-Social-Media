@@ -7,17 +7,13 @@ Student Number : 616213
 Supervisor : Prof. Richard Sinnott
 Project Name : Estimating Crowds Based on Social Media
 
-Overview 
-
+--> Overview 
 This repository contains the sources code for COMP90055 final project of Estimating Crowds Based on Social Media
 
-Web Interface: http://115.146.85.185/index.php
-
-Source Code URL: https://github.com/chenvega/COMP90055-COMPUTING-PROJECT-Estimating-Crowds-Based-on-Social-Media
-
-Presentation Slide URL: https://github.com/chenvega/COMP90055-COMPUTING-PROJECT-Estimating-Crowds-Based-on-Social-Media/tree/master/Presentation
-
-Presentation Video Demo: https://www.youtube.com/watch?v=BI3Rykl-wpU&feature=youtu.be
+    Web Interface: http://115.146.85.185/index.php
+    Source Code URL: https://github.com/chenvega/COMP90055-COMPUTING-PROJECT-Estimating-Crowds-Based-on-Social-Media
+    Presentation Slide URL: https://github.com/chenvega/COMP90055-COMPUTING-PROJECT-Estimating-Crowds-Based-on-Social-Media/tree/master/Presentation
+    Presentation Video Demo: https://www.youtube.com/watch?v=BI3Rykl-wpU&feature=youtu.be
 
 
 --> Environment Requirements

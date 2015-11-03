@@ -1,5 +1,8 @@
 [hostName]
 115.146.84.189
+115.146.85.185
+115.146.85.234
+115.146.85.47
 
 [cloudHost:vars]
 ansible_ssh_user=ubuntu

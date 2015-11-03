@@ -11,8 +11,8 @@ from boto.ec2.regioninfo import RegionInfo
 
 #connect the cloud with EC2
 region=RegionInfo(name='melbourne', endpoint='nova.rc.nectar.org.au')
-ec2_conn = boto.connect_ec2(aws_access_key_id='0676a45267b540cea24ff15a9c958b1b', 
-		aws_secret_access_key='97f849760bbd41208b64b82b0fceb423', is_secure=True, region=region, port=8773, 
+ec2_conn = boto.connect_ec2(aws_access_key_id='', 
+		aws_secret_access_key='', is_secure=True, region=region, port=8773, 
 			path='/services/Cloud', validate_certs=False)
 
 # initialize instance and volume
